@@ -1,0 +1,588 @@
+body {
+    /* font-family: 'Hind Madurai', sans-serif; */
+}
+
+.header {
+    
+}
+.header__nav {
+    padding: 10px;
+    font-family: 'Roboto';
+    margin-bottom: 144px;
+}
+
+.header__item {
+    list-style-type: none;
+}
+.header__link {
+    margin-left: 40px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    color: #150101;
+    text-decoration: none;
+}
+.header__link:hover {
+    color: #D23166;
+}
+
+.header__link--active {
+    color: #D23166;
+}
+
+.header__item:nth-child(6){
+    margin-left: 172px;
+}
+
+.header__link__button {
+    padding: 14px 50px;
+    background: #D23166;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #d23166;
+}
+.header__link__button:hover {
+    background: #fff;
+    color: #D23166;
+    border: 1px solid #d23166;
+}
+.hero {
+    position: relative;
+}
+.bkg-hero {
+    background: #F8EDF0;
+    height: 832px;
+}
+
+.hero__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0101;
+    font-family: 'Roboto';
+    margin-bottom: 6px;
+}
+
+.hero__title {
+    font-family: 'Fredoka One', cursive;
+    width: 665px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57px;
+    color: #0F0101;
+    opacity: 0.9;
+    margin-bottom: 35px;
+}
+.hero__title--color {
+    color: #D23166;
+
+}
+.hero__desc {
+    width: 523px;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin-bottom: 50px;
+}
+.hero__button {
+    padding: 14px 50px;
+    background: #D23166;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #d23166;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    margin-bottom: 213px;
+
+}
+.hero__button:hover {
+    background: #fff;
+    color: #D23166;
+    border: 1px solid #d23166;
+}
+
+.hero__right {
+    position: absolute;
+    left: 60%;
+    top: -20%;
+}
+.main__list {
+    padding: 100px 0px 100px;
+}
+.main__item {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-left: 40px;
+    list-style-type: none;
+}
+.main__img {
+    margin: 33px 100px 24px;
+}
+.main__title {
+    text-align: center;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 9px;
+    
+}
+.main__descript {
+    text-align: center;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+    width: 198px;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 27px;
+}
+
+.card {
+    /* padding: 141px 0px 146px; */
+    background: #F8EDF0;
+    margin-bottom: 137px;
+}
+.card__part {
+}
+.card__title {
+    width: 349px;
+    height: 98.27px;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+    margin-bottom: 16px;
+}
+.card__text {
+    width: 452px;
+    height: 58.16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #150101;
+    opacity: 0.6;
+    margin-bottom: 35px;    
+}
+.card__link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fafafa;
+    padding: 15px 42px;
+    background: #D64374;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #D64374;
+}
+.card__link:hover {
+    color: #D64374;
+    border: 1px solid #D64374;
+    background-color: #fff;
+}
+
+.product {
+    /* text-align: center; */
+}
+.product__title {
+    text-align: center;
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    margin-bottom: 64px;
+    color: #150101;
+}
+.product__list {
+    text-align: center;
+    margin-left: 150px;
+}
+.product__item {
+    margin-left: 40px;
+    text-align: center;
+    list-style-type: none;
+}
+.product__link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.product__link--active {
+    color: #000000;
+    opacity: 1;
+    border-bottom: 3px solid #D64374;
+    margin-bottom: 46px;
+}
+.product__link:hover {
+    color: #000000;
+    opacity: 1;   
+}
+
+.icecream {
+    margin-bottom: 121px;
+}
+.icecream__title {
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000;
+    margin-bottom: 11px;
+}
+.icecream__text {
+    width: 454px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 28px;
+}
+
+.icecream__prise {
+    width: 134px;
+    margin-bottom: 20px;
+}
+.icecream__cost {
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000;
+    margin-bottom: 16px;
+}
+.icecream__sale {
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000;
+    opacity: 0.7;
+    display: inline-block;
+}
+
+.icecream__link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FAFAFA;
+    background: #D64374;
+    border-radius: 5px;
+    border: 1px solid #D64374;    
+    padding: 15px 55px;
+    text-decoration: none;
+    margin-top: 116px;
+}
+
+.icecream__link:hover {
+    color: #D23166;
+    background-color: #fff;
+    border: 1px solid #D64374;    
+}
+
+.customer {
+}
+.customer__part {
+}
+.customer__name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin-bottom: 6px;
+}
+
+/* .customer__name::before{
+    content: "";
+    background-image: url('img/hair.png');
+    width: 59px;
+    height: 58px;
+    display: block;
+    margin-left: -200px;
+} */
+.customer__country {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+.customer__text {
+    width: 322px;
+    height: 53px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.7;
+
+}
+.customer__list {
+    list-style-type: none;
+}
+
+.customer__item {
+    margin-right: 50px;
+}
+
+.bx-chevron-right {
+    margin-top: 20px;
+}
+
+.simple {
+    background: #F8EDF0;
+}
+.simp__photo {
+    position: relative;
+}
+.simple__img {
+    position: absolute;
+    top: -250px;
+}
+.simple__part {
+    margin-left: 400px;
+    padding-top: 90px;
+}
+.simple__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    color: #000;
+}
+.simple__text {
+    width: 607px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0F0101;
+    opacity: 0.7;
+    margin-bottom: 31px;
+}
+.simple__list {
+}
+.simple__item {
+    font-family: Roboto;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 19px;
+    list-style-type: none;
+}
+
+.simple__item::before{
+    content: "";
+    background-image: url('img/click.svg');
+    width: 30px; 
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.simple__market {
+    margin-bottom: 140px;
+}
+.question {
+    padding: 191px 150px;
+}
+
+.question__title {
+    width: 522px;
+    height: 123px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 44px;
+    color: #000;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 28px;
+}
+.question__input {
+    width: 503px;
+    height: 74px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+}
+
+.question__link {
+    font-family: Roboto;
+    padding: 22px 31px 22px 46px; 
+    background: #D64374;
+    border-radius: 5px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid #D64374;
+}
+.question__link:hover {
+    color: #D64374;
+    border: 1px solid #D64374;
+    background-color: #fff;
+}
+
+.footer__site {
+}
+
+.footer {
+    padding: 70px 0px 114px;
+    background: #0A0808;
+}
+
+.one__text {
+    width: 207px;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 17px;
+    color: #fff;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+.one__name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.one__list {
+   width: 100px;
+}
+
+.one__item {
+    list-style-type: none;
+}
+.two__list {
+    
+}
+.two__item {
+    list-style-type: none;
+}
+.two__link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.three__lsit {
+}
+.three__item {
+    list-style-type: none;
+}
+.three__link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.four__block {
+}
+.four__title {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    margin-bottom: 13px;
+}
+.row {
+}
+.four__part {
+    margin-bottom: 10px;
+}
+.four__input {
+    width: 263px;
+    height: 55px;
+    border: 2px solid #D64374;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px;
+}
+.four__link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    padding: 14px 18px;
+    background: #D23166;
+    border-radius: 5px;
+    border: 1px solid #D23166;
+}
+
+.four__link:hover {
+    color: #D64374;
+    background-color: #fff;
+    border: 1px solid #D23166;
+}
+
+.footer__icon {
+    margin-left: 17px;
+}
